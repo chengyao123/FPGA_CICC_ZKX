@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 19 15:25:31 2024
+# Process ID: 15916
+# Current directory: C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2420 C:\Users\Dell\Desktop\CICC\High_speed_multi_port_shared_cache_management_module\bulid\Top.xpr
+# Log file: C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/vivado.log
+# Journal file: C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.xpr
+update_compile_order -fileset sources_1
+set_property part xa7z020clg400-1I [current_project]
+upgrade_ip -vlnv xilinx.com:ip:fifo_generator:13.2 [get_ips  wr_fifo] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips wr_fifo] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci]
+catch { config_ip_cache -export [get_ips -all wr_fifo] }
+export_ip_user_files -of_objects [get_files C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci]
+launch_runs -jobs 12 wr_fifo_synth_1
+export_simulation -of_objects [get_files C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci] -directory C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files -ipstatic_source_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/FPGA/modelsim/modelsim_vivado_lib} {questa=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/questa} {riviera=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/riviera} {activehdl=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+add_files {C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/rd_queue.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/Top.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/sram_ctrl.v {C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/sram_ctrl copy.v} C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/wr_sram.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/addr_re.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/addr_gen.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/mult_arbit.v C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/addr_admi.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/sram_ctrl copy.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/sram/sram_ctrl copy.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/addr_admi.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/addr_admi.v
+add_files -norecurse C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/check.v
+update_compile_order -fileset sources_1
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name data_fifo -dir c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {data_fifo} CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Input_Data_Width {20} CONFIG.Input_Depth {16} CONFIG.Output_Data_Width {20} CONFIG.Output_Depth {16} CONFIG.Use_Extra_Logic {true} CONFIG.Data_Count_Width {5} CONFIG.Write_Data_Count_Width {5} CONFIG.Read_Data_Count_Width {5} CONFIG.Full_Threshold_Assert_Value {15} CONFIG.Full_Threshold_Negate_Value {14} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5}] [get_ips data_fifo]
+generate_target {instantiation_template} [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/data_fifo/data_fifo.xci]
+generate_target all [get_files  c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/data_fifo/data_fifo.xci]
+catch { config_ip_cache -export [get_ips -all data_fifo] }
+export_ip_user_files -of_objects [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/data_fifo/data_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/data_fifo/data_fifo.xci]
+launch_runs -jobs 12 data_fifo_synth_1
+export_simulation -of_objects [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/data_fifo/data_fifo.xci] -directory C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files -ipstatic_source_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/FPGA/modelsim/modelsim_vivado_lib} {questa=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/questa} {riviera=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/riviera} {activehdl=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name queue_fifo -dir c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {queue_fifo} CONFIG.Input_Data_Width {32} CONFIG.Input_Depth {16} CONFIG.Output_Data_Width {32} CONFIG.Output_Depth {16} CONFIG.Data_Count_Width {4} CONFIG.Write_Data_Count_Width {4} CONFIG.Read_Data_Count_Width {4} CONFIG.Full_Threshold_Assert_Value {14} CONFIG.Full_Threshold_Negate_Value {13}] [get_ips queue_fifo]
+generate_target {instantiation_template} [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/queue_fifo/queue_fifo.xci]
+generate_target all [get_files  c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/queue_fifo/queue_fifo.xci]
+catch { config_ip_cache -export [get_ips -all queue_fifo] }
+export_ip_user_files -of_objects [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/queue_fifo/queue_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/queue_fifo/queue_fifo.xci]
+launch_runs -jobs 12 queue_fifo_synth_1
+export_simulation -of_objects [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/queue_fifo/queue_fifo.xci] -directory C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files -ipstatic_source_dir C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/FPGA/modelsim/modelsim_vivado_lib} {questa=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/questa} {riviera=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/riviera} {activehdl=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1

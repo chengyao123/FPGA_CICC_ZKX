@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jul 19 15:29:50 2024
+| Host         : DESKTOP-5JNUKTK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xa7z020clg400-1I
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'wr_fifo'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of wr_fifo (xilinx.com:ip:fifo_generator:13.2 (Rev. 3)) to Vivado generation flows.
+

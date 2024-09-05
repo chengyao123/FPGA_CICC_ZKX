@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="queue_fifo_synth_1" LaunchPart="xa7z020clg400-1I" LaunchTime="1721377413">
+  <File Type="PA-TCL" Name="queue_fifo.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="queue_fifo_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="queue_fifo_reports.tcl"/>
+  <File Type="RDS-RDS" Name="queue_fifo.vds"/>
+  <File Type="RDS-UTIL" Name="queue_fifo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="queue_fifo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="queue_fifo.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="queue_fifo_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="queue_fifo_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/queue_fifo">
+    <File Path="$PSRCDIR/sources_1/ip/queue_fifo/queue_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="queue_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/queue_fifo">
+    <File Path="$PSRCDIR/sources_1/ip/queue_fifo/queue_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="queue_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
