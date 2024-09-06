@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 19 15:23:34 2024
+# Process ID: 8928
+# Current directory: C:/Users/Dell/Desktop/CICC/plan0427/Bulid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15916 C:\Users\Dell\Desktop\CICC\plan0427\Bulid\Top.xpr
+# Log file: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/vivado.log
+# Journal file: C:/Users/Dell/Desktop/CICC/plan0427/Bulid\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_simulation
+source tb_Top.tcl
+run all
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+set_msg_config -suppress -id {Project 1-311} -string {{CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v', nor could it be found using path 'F:/A/2024/plan0427/Src/rd_sram.v'.} } 
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1

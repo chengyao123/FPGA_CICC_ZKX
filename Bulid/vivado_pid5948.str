@@ -1,0 +1,1062 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5948
+License: Customer
+
+Current time: 	Thu Jun 13 14:52:52 CST 2024
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 72 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/FPGA/Vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	E:/FPGA/Vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Dell
+User home directory: C:/Users/Dell
+User working directory: C:/Users/Dell/Desktop/CICC/plan0427/Bulid
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/FPGA/Vivado/Vivado
+HDI_APPROOT: E:/FPGA/Vivado/Vivado/2018.3
+RDI_DATADIR: E:/FPGA/Vivado/Vivado/2018.3/data
+RDI_BINDIR: E:/FPGA/Vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Dell/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Dell/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Dell/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	E:/FPGA/Vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Dell/Desktop/CICC/plan0427/Bulid/vivado.log
+Vivado journal file location: 	C:/Users/Dell/Desktop/CICC/plan0427/Bulid/vivado.jou
+Engine tmp dir: 	C:/Users/Dell/Desktop/CICC/plan0427/Bulid/.Xil/Vivado-5948-DESKTOP-5JNUKTK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/FPGA/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: E:/FPGA/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: E:/FPGA/Vivado/Vivado/2018.3
+XILINX_SDK: E:/FPGA/Vivado/SDK/2018.3
+XILINX_VIVADO: E:/FPGA/Vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: E:/FPGA/Vivado/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 566 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 104 MB (+106560kb) [00:00:09]
+// [Engine Memory]: 552 MB (+427760kb) [00:00:09]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Dell\Desktop\CICC\plan0427\Bulid\Top.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 588 MB. GUI used memory: 45 MB. Current time: 6/13/24, 2:52:54 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 691 MB (+116043kb) [00:00:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  2781 ms.
+// Tcl Message: open_project C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'F:/A/2024/plan0427/Bulid' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/FPGA/Vivado/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 759 MB (+35780kb) [00:00:28]
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 793.566 ; gain = 193.453 
+// Project name: Top; location: C:/Users/Dell/Desktop/CICC/plan0427/Bulid; part: xc7a50tlftg256-2L
+// HMemoryUtils.trashcanNow. Engine heap size: 765 MB. GUI used memory: 55 MB. Current time: 6/13/24, 2:53:09 PM CST
+dismissDialog("Open Project"); // bx (cp)
+// a (cp): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_sram31 : wr_sram (wr_sram.v)]", 85); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_sram31 : wr_sram (wr_sram.v)]", 85); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_queue_gen15 : queue_gen (queue_gen.v)]", 52); // B (D, cp)
+// [GUI Memory]: 110 MB (+1191kb) [00:01:01]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_queue_gen14 : queue_gen (queue_gen.v)]", 51); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_queue_gen14 : queue_gen (queue_gen.v)]", 51); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_queue_gen15 : queue_gen (queue_gen.v)]", 52); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_addr_gen0 : addr_gen (addr_gen.v)]", 21); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_addr_gen0 : addr_gen (addr_gen.v)]", 21); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 2); // B (D, cp)
+// Elapsed time: 22 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+// Elapsed time: 49 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (cp): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // q (ak, f)
+setFolderChooser("C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module");
+// Elapsed time: 43 seconds
+selectCheckBox(PAResourceOtoP.ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY, "Create project subdirectory", false); // g (Q, f): FALSE
+selectCheckBox(PAResourceOtoP.ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY, "Create project subdirectory", true); // g (Q, f): TRUE
+selectCheckBox(PAResourceOtoP.ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY, "Create project subdirectory", false); // g (Q, f): FALSE
+// Elapsed time: 13 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Top"); // Y (Q, f)
+// Elapsed time: 19 seconds
+setText(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, "C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/biuld"); // al (ak, f)
+// Elapsed time: 16 seconds
+setText(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, "C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid"); // al (ak, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 35 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xc7a50"); // OverlayTextField (I, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a50tlcpg236-2L ; 236 ; 106 ; 32600 ; 65200 ; 75 ; 0 ; 120 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; 0 ; 100 ; 100 ; E ; 0.87 ; 0.87 ; 0.93", 25, "xc7a50tlcpg236-2L", 0); // x (Q, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a50tlftg256-2L ; 256 ; 170 ; 32600 ; 65200 ; 75 ; 0 ; 120 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; 0 ; 100 ; 100 ; E ; 0.87 ; 0.87 ; 0.93", 29, "xc7a50tlftg256-2L", 0); // x (Q, f)
+// Elapsed time: 15 seconds
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bx (f):  Create Project : addNotify
+// Elapsed time: 18 seconds
+selectButton("PAResourceItoN.NewProjectWizard_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (C, J)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project Top C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid -part xc7a50tlftg256-2L 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/FPGA/Vivado/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 807 MB (+10052kb) [00:05:59]
+// WARNING: HEventQueue.dispatchEvent() is taking  1777 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 811 MB. GUI used memory: 64 MB. Current time: 6/13/24, 2:58:40 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 831.285 ; gain = 30.773 
+// Tcl Message: set_property compxlib.modelsim_compiled_library_dir E:/FPGA/modelsim/modelsim_vivado_lib [current_project] 
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 199 seconds
+dismissDialog("Create Project"); // bx (f)
+dismissDialog("New Project"); // f (cp)
+// [GUI Memory]: 121 MB (+4981kb) [00:20:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 64 MB. Current time: 6/13/24, 3:28:40 PM CST
+// Elapsed time: 2207 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/wr_lead.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+dismissFileChooser();
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/wr_lead.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v)]", 3); // B (D, cp)
+// PAPropertyPanels.initPanels (wr_fifo.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false); // B (D, cp)
+// Tcl Message: current_project Top 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cp):  Re-customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2827 ms.
+dismissDialog("Re-customize IP"); // O (cp)
+// [GUI Memory]: 132 MB (+5605kb) [00:43:59]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1, true); // B (D, cp) - Node
+// Tcl Message: current_project Top(2) 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // u (Q, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1); // B (D, cp)
+// [GUI Memory]: 149 MB (+10593kb) [00:44:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : xil_defaultlib.wr_fifo]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : xil_defaultlib.wr_fifo]", 2, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : xil_defaultlib.wr_fifo]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false, false, false, false, false, true); // u (Q, cp) - Double Click
+// Elapsed time: 18 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bg (C, r)
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bx (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // bx (SwingUtilities.SharedOwnerFrame)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXIS FIFO monitor ; AXI4, AXI4-Stream ; Production ; Purchase ; omnitek.tv:ip:omni_axis_fifo_mon:0.0", 3, (String) null, 1, true); // O (Q, cp) - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top (Top.v), u_wr_lead0 : wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1392 ms.
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Memories & Storage Elements ;  ;  ;  ; ", 13, "Memories & Storage Elements", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15, "FIFO Generator", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15, "FIFO Generator", 0, false); // O (Q, cp)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15, "FIFO Generator", 0, false, false, false, false, false, true); // O (Q, cp) - Double Click
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (C, I)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bg (C, r)
+dismissDialog("Re-customize IP"); // r (cp)
+// [GUI Memory]: 156 MB (+13kb) [00:46:19]
+// Tcl Message: current_project Top 
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15, "FIFO Generator", 0, false); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FIFO Generator ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:fifo_generator:13.2", 15, "FIFO Generator", 0, false, false, false, false, false, true); // O (Q, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cp):  Customize IP : addNotify
+// [GUI Memory]: 167 MB (+2653kb) [00:46:22]
+// r (cp): Customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1436 ms.
+dismissDialog("Customize IP"); // l (cp)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // bg (C, r)
+setText("Input Data Width", "8"); // z (bh, r)
+selectComboBox("Write Depth (Input_Depth)", "8192", 9); // E (C, r)
+// Elapsed time: 12 seconds
+selectRadioButton((HResource) null, "First Word Fall Through"); // aT
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Status Flags", 2); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Data Counts", 3); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // bg (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+selectButton("RDIResource.HFileChooser_OK_TO_CREATE_DIRECTORY_OK", "OK"); // JButton (C, J)
+dismissDialog("Customize IP"); // r (cp)
+// Tcl Message: current_project Top(2) 
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name wr_fifo -dir c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip 
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Customize IP : addNotify
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Component_Name {wr_fifo} CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Input_Data_Width {8} CONFIG.Input_Depth {8192} CONFIG.Output_Data_Width {8} CONFIG.Output_Depth {8192} CONFIG.Use_Extra_Logic {true} CONFIG.Data_Count_Width {14} CONFIG.Write_Data_Count_Width {14} CONFIG.Read_Data_Count_Width {14} CONFIG.Full_Threshold_Assert_Value {8191} CONFIG.Full_Threshold_Negate_Value {8190} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5}] [get_ips wr_fifo] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'wr_fifo'... 
+// TclEventType: FILE_SET_CHANGE
+// aI (cp): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 185 MB (+10175kb) [00:47:18]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'wr_fifo'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'wr_fifo'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'wr_fifo'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all wr_fifo] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 12 wr_fifo_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 13 15:40:02 2024] Launched wr_fifo_synth_1... Run output will be captured here: C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.runs/wr_fifo_synth_1/runme.log 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 25 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+// Tcl Message: current_project Top 
+// Tcl Message: current_project Top(2) 
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aI (aF, cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 123 MB. Current time: 6/13/24, 3:58:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 122 MB. Current time: 6/13/24, 4:28:46 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 4:58:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 5:28:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 5:58:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 6:28:57 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 6:59:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 7:29:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 7:59:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 8:29:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 8:59:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 9:29:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/13/24, 9:59:18 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  42589765 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 9:56:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 10:26:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 10:56:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 11:26:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 11:56:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 12:26:56 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 12:56:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 1:27:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 1:57:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 2:27:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 2:57:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 3:27:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 3:57:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 4:27:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 4:57:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 5:27:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 5:57:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 6:27:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 6:57:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 7:27:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 7:57:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 8:27:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 8:57:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 9:28:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 9:58:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 10:28:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 10:58:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 11:28:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/14/24, 11:58:23 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 12:28:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 12:58:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 1:28:35 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 1:58:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 2:28:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 2:58:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 3:28:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 3:58:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 4:29:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 4:59:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 5:29:09 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 5:59:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 6:29:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 6:59:21 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 7:29:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 7:59:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 8:29:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 8:59:38 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 9:29:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 9:59:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 10:29:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 10:59:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 11:29:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 12:00:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 12:30:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 1:00:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 1:30:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 2:00:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 2:30:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 3:00:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 3:30:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 4:00:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 120 MB. Current time: 6/15/24, 4:30:38 PM CST
+// Elapsed time: 176314 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/wr_lead.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/wr_lead.v 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aE)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+// Elapsed time: 10 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_fifo (wr_fifo.xci)]", 1, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/wr_lead.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 10 seconds
+setFileChooser("C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: add_files -norecurse C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/src/wr_lead.v 
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cp)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci] -no_script -reset -force -quiet 
+// aE (cp): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: remove_files  -fileset wr_fifo c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [Project 1-386] Moving file 'c:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.srcs/sources_1/ip/wr_fifo/wr_fifo.xci' from fileset 'wr_fifo' to fileset 'sources_1'. 
+dismissDialog("Remove Sources"); // bx (aE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+dismissFileChooser();
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c (cp)
+// bx (cp):  Add Sources  : addNotify
+// Tcl Message: add_files -norecurse C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_ip_user_files -of_objects  [get_files  C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/ip/wr_fifo/wr_fifo.xci] -lib_map_path [list {modelsim=E:/FPGA/modelsim/modelsim_vivado_lib} {questa=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/questa} {riviera=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/riviera} {activehdl=C:/Users/Dell/Desktop/CICC/High_speed_multi_port_shared_cache_management_module/bulid/Top.cache/compile_simlib/activehdl}] -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+dismissDialog("Add Sources"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project Top 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project Top(2) 
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2); // B (D, cp)
+// A (cp): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // A (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wr_lead (wr_lead.v), u_wr_fifo : wr_fifo (wr_fifo.xci)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1441 ms.
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // bg (C, r)
+// [GUI Memory]: 197 MB (+2866kb) [49:50:10]
+// Elapsed time: 12 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/15/24, 5:00:41 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  146261946 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/17/24, 9:51:44 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1131 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/17/24, 10:21:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 10:51:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 11:21:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 11:51:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 12:21:56 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 12:51:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 1:22:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 1:52:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 2:22:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 2:52:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 3:22:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 3:52:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/17/24, 4:22:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 4:52:23 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  6854190 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 7:11:21 PM CST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 915ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6855200 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4544 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 7:41:23 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 8:11:26 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 8:41:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/17/24, 9:11:31 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1078 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 9:52:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 10:23:01 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 10:53:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 11:23:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 11:53:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 12:23:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 12:53:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 1:23:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/19/24, 1:53:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 2:23:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 2:53:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 3:23:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 3:53:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 4:23:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 4:53:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 5:23:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 5:53:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 6:23:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 6:53:57 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 7:24:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 7:54:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 8:24:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 8:54:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/19/24, 9:24:13 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  61174999 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 2:35:58 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3216 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 3:06:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 3:36:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/20/24, 4:06:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/20/24, 4:36:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 5:06:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 5:36:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 6:06:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 6:36:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 7:06:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 7:36:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 8:06:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 8:36:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/20/24, 9:06:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/20/24, 9:36:43 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  44974365 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/21/24, 10:13:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/21/24, 10:43:17 AM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2883 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2884 ms. Increasing delay to 8652 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2866 ms. Increasing delay to 8598 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/21/24, 11:13:19 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  12909574 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/21/24, 3:02:47 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  4915 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/21/24, 3:32:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/21/24, 4:02:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/21/24, 4:32:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/21/24, 5:02:55 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  232528852 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  7987 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8612 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8612 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/24/24, 9:45:18 AM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8976 ms. Increasing delay to 26928 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8976 ms. Increasing delay to 26928 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2 ms. Decreasing delay to 2002 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13 ms. Decreasing delay to 2013 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 10:15:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 10:45:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 11:15:11 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  26715996 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 6:50:03 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1929 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 7:20:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/24/24, 7:50:06 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  51259815 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 10:05:38 AM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1045 ms. Increasing delay to 3135 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1044 ms. Increasing delay to 3132 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1075 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 10:35:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/25/24, 11:05:44 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  9265379 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 2:10:12 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1356 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2040 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 2:40:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 3:10:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/25/24, 3:40:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 4:10:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 4:40:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/25/24, 5:10:31 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  145953626 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 9:53:30 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1882 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 10:23:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 10:53:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 11:23:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 11:53:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 12:23:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 12:53:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 1:23:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 1:53:56 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 2:24:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 2:54:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 3:24:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 3:54:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 4:24:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 4:54:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 5:24:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 5:54:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 6:24:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 6:54:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 7:24:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 7:54:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 8:24:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 8:54:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 9:24:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 9:54:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 10:25:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 10:55:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 11:25:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/27/24, 11:55:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 12:25:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 12:55:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 1:25:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 1:55:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 2:25:33 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 2:55:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/28/24, 3:25:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 3:55:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 4:25:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 4:55:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 5:25:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 5:56:01 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 6:26:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 6:56:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 7:26:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 7:56:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 8:26:20 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 8:56:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 9:26:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 9:56:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 10:26:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 10:56:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/28/24, 11:26:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 11:56:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/28/24, 12:26:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 12:56:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 1:26:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 1:57:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 2:27:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 2:57:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 3:27:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 3:57:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 4:27:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 4:57:26 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 5:27:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 5:57:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 6:27:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 6:57:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 7:27:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 7:57:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 8:27:53 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2117 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 8:57:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 9:27:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 9:58:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/28/24, 10:28:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 10:58:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 11:28:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/28/24, 11:58:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 12:28:21 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 12:58:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/29/24, 1:28:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 1:58:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 2:28:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 2:58:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 3:28:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 3:58:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 4:28:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 4:58:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 5:28:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 5:59:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 6:29:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 6:59:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 7:29:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 7:59:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 8:29:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 8:59:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 9:29:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 9:59:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/29/24, 10:29:38 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 10:59:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 11:29:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 11:59:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 12:29:56 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/29/24, 1:00:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 1:30:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 2:00:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 2:30:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 3:00:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 3:30:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 4:00:26 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 4:30:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 5:00:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 5:30:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/29/24, 6:00:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 6:30:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 7:00:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 7:30:57 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 8:01:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 8:31:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 9:01:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 9:31:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 10:01:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 10:31:23 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 11:01:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/29/24, 11:31:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 12:01:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 12:31:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 1:01:45 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 1:31:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 2:01:54 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 2:31:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 3:02:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 3:32:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 4:02:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 4:32:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 5:02:20 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 5:32:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 6:02:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 6:32:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 7:02:38 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 7:32:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 8:02:47 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 8:32:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 9:02:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 9:33:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 10:03:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 10:33:09 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 11:03:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 11:33:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 12:03:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 12:33:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 1:03:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 1:33:35 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 2:03:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 2:33:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 3:03:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 3:33:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 4:03:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 4:34:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 5:04:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 5:34:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 6:04:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 6:34:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 7:04:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 6/30/24, 7:34:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 8:04:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 8:34:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 9:04:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 9:34:46 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 10:04:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 10:34:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 11:04:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 6/30/24, 11:35:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 12:05:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 12:35:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 1:05:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 1:35:21 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 2:05:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 2:35:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 3:05:35 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 3:35:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/1/24, 4:05:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 4:35:48 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 5:05:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 5:35:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 6:06:01 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 6:36:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 7:06:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 7:36:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 8:06:19 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 8:36:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 9:06:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 9:36:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 10:06:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 10:36:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 11:06:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 11:36:45 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2581 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  12916676 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 3:14:44 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 12922070 ms. Increasing delay to 38766210 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking 5456ms to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 3:44:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 4:14:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 4:44:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 5:14:46 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  6978783 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 5320ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5320 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6545 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/1/24, 7:23:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/1/24, 7:53:04 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  241141588 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5244 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5691 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/4/24, 3:14:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/4/24, 3:44:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/4/24, 4:14:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/4/24, 4:44:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/4/24, 5:14:38 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  93361996 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 93361729 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4849 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/5/24, 7:22:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/5/24, 7:52:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/5/24, 8:22:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/5/24, 8:52:26 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/5/24, 9:22:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  214890895 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 9:32:59 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1658 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 10:02:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 10:33:02 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 11:03:04 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1671 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  27620791 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1135 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 7:07:20 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2267 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 7:37:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 8:07:22 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 8:37:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/8/24, 9:07:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/8/24, 9:37:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/8/24, 10:07:31 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  40482831 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5383 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/9/24, 9:42:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 10:12:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 10:42:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 11:12:05 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  8327667 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/9/24, 1:53:19 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1693 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 2:23:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 2:53:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 3:23:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 3:53:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 4:23:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 4:53:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/9/24, 5:23:33 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  59921612 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/10/24, 10:15:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 10:45:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 11:15:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 11:45:45 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  11536584 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 3:12:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1213 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1970 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 3:42:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1314891 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1176 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/10/24, 4:23:46 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1144 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 4:53:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 5:23:49 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  6330155 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/10/24, 7:16:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 7:46:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 8:16:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 134 MB. Current time: 7/10/24, 8:46:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 9:16:35 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  7117113 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 133 MB. Current time: 7/10/24, 11:29:33 PM CST

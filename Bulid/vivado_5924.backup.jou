@@ -1,0 +1,408 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 17 21:17:44 2024
+# Process ID: 5924
+# Current directory: F:/A/2024/plan0427/Bulid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5840 F:\A\2024\plan0427\Bulid\Top.xpr
+# Log file: F:/A/2024/plan0427/Bulid/vivado.log
+# Journal file: F:/A/2024/plan0427/Bulid\vivado.jou
+#-----------------------------------------------------------start_gui
+oopen_project F:/A/2024/plan0427/Bulid/Top.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_Top.tcl
+relaunch_sim
+restart
+restart
+run 20 us
+restart
+run 20 us
+restart
+restart
+run 5 us
+relaunch_sim
+restart
+run 5 us
+relaunch_sim
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+restart
+restart
+run 5 us
+relaunch_sim
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+restart
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+restart
+run 5 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+relaunch_sim
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+run 5 us
+relaunch_sim
+run 5 us
+relaunch_sim
+run 5 us
+relaunch_sim
+relaunch_sim
+restart
+restart
+run 5 us
+relaunch_sim
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+run 5 us
+run 5 us
+current_wave_config {Untitled 1}
+add_wave {{/tb_Top/u_Top/u_addr_gen0}} 
+restart
+restart
+run 5 us
+run 5 us
+restart
+restart
+restart
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+run 5 us
+restart
+restart
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run all
+run all
+restart
+restart
+run 20 us
+run all
+run all
+restart
+restart
+restart
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+run all
+run all
+restart
+restart
+run 20 us
+run all
+restart
+restart
+run 20 us
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+run all
+restart
+restart
+run all
+restart
+restart
+run 20 us
+run 20 us
+relaunch_sim
+run all
+relaunch_sim
+run all
+restart
+restart
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run all
+restart
+restart
+restart
+run 20 us
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+run all
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run all
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+run all
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+relaunch_sim
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 20 us
+run all
+relaunch_sim
+run all
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+restart
+run 20 us
+restart
+restart
+run 20 us
+close_sim

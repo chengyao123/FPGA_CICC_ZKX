@@ -1,0 +1,467 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 19 15:23:34 2024
+# Process ID: 8928
+# Current directory: C:/Users/Dell/Desktop/CICC/plan0427/Bulid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15916 C:\Users\Dell\Desktop\CICC\plan0427\Bulid\Top.xpr
+# Log file: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/vivado.log
+# Journal file: C:/Users/Dell/Desktop/CICC/plan0427/Bulid\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.xpr
+INFO: [Project 1-313] Project file moved from 'F:/A/2024/plan0427/Bulid' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v', nor could it be found using path 'F:/A/2024/plan0427/Src/rd_sram.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/FPGA/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 785.008 ; gain = 183.207
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 16:27:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Fri Jul 19 16:42:53 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/FPGA/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/queue_fifo/sim/queue_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module queue_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/data_fifo/sim/data_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/wr_fifo/sim/wr_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2458] undeclared symbol port0_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1149]
+INFO: [VRFC 10-2458] undeclared symbol port1_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1163]
+INFO: [VRFC 10-2458] undeclared symbol port2_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1177]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1183]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1184]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1185]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1186]
+INFO: [VRFC 10-2458] undeclared symbol port3_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1191]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1197]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1198]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1199]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1200]
+INFO: [VRFC 10-2458] undeclared symbol port4_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1205]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1211]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1212]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1213]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1214]
+INFO: [VRFC 10-2458] undeclared symbol port5_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1219]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1225]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1226]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1227]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1228]
+INFO: [VRFC 10-2458] undeclared symbol port6_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1233]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1239]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1240]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1241]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1242]
+INFO: [VRFC 10-2458] undeclared symbol port7_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1247]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1253]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1254]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1255]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1256]
+INFO: [VRFC 10-2458] undeclared symbol port8_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1261]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1267]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1268]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1269]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1270]
+INFO: [VRFC 10-2458] undeclared symbol port9_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1275]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1281]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1282]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1283]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1284]
+INFO: [VRFC 10-2458] undeclared symbol port10_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1289]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1295]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1296]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1297]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1298]
+INFO: [VRFC 10-2458] undeclared symbol port11_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1303]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1309]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1310]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1311]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1312]
+INFO: [VRFC 10-2458] undeclared symbol port12_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1317]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1323]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1324]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1325]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1326]
+INFO: [VRFC 10-2458] undeclared symbol port13_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1331]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1337]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1338]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1339]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1340]
+INFO: [VRFC 10-2458] undeclared symbol port14_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1345]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1351]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1352]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1353]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1354]
+INFO: [VRFC 10-2458] undeclared symbol port15_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1359]
+INFO: [VRFC 10-2458] undeclared symbol port_req_done, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3006]
+INFO: [VRFC 10-2458] undeclared symbol rd_req_done, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3008]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3138]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3139]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3140]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3141]
+INFO: [VRFC 10-2458] undeclared symbol wr_use, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3162]
+INFO: [VRFC 10-2458] undeclared symbol rd_use, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3163]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3171]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3172]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3173]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3174]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3202]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3203]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3204]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3205]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3233]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3234]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3235]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3236]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3264]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3265]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3266]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3267]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3295]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3296]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3297]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3298]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3326]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3327]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3328]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3329]
+INFO: [Common 17-14] Message 'VRFC 10-2458' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_ctrl
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:826]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:827]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:828]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:829]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:830]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:831]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:832]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:833]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:834]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:835]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:836]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:837]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_re.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_re
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module check
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module queue_gen
+WARNING: [VRFC 10-3380] identifier 'pri_cnt' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v:546]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_lead.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_lead
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_sram
+WARNING: [VRFC 10-3380] identifier 'curr_state' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v:67]
+WARNING: [VRFC 10-3380] identifier 'curr_state' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v:68]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_Top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1602.344 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/FPGA/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c0f3391eee934edcb17d03bca688668d --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_Top_behav xil_defaultlib.tb_Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'port0_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v:226]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'port1_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v:236]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'port2_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v:246]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1186]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1200]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1214]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1228]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1242]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1256]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1270]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1284]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1298]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1312]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1326]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1340]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wr_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1354]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2247]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2294]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2340]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2384]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2428]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2472]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2516]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2560]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2604]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2648]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2692]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2736]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2780]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2824]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2868]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2912]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port0_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2950]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 28 for port 'port1_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2951]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port2_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2952]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port3_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2953]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port4_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2954]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port5_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2955]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port6_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2956]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port7_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2957]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port8_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2958]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port9_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2959]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port10_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2960]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port11_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2961]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port12_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2962]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port13_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2963]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port14_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2964]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 28 for port 'port15_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:2965]
+WARNING: [VRFC 10-3091] actual bit length 26 differs from formal bit length 28 for port 'port_rd_info' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3002]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3141]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3162]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3163]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3174]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3193]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3194]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3205]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3224]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3225]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3236]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3255]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3256]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3267]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3286]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3287]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3298]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3317]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3318]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3329]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3348]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3349]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3360]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3379]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3380]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3391]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3410]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3411]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3422]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3441]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3442]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3453]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3472]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3473]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3484]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3503]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3504]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3515]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3534]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3535]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3546]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3565]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3566]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3577]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3596]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3597]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3608]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3627]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3628]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3639]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3658]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3659]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3670]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3689]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3690]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3701]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3720]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3721]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3732]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3751]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3752]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3763]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3782]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3783]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3794]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3813]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3814]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3825]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3844]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3845]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3856]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3875]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3876]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3887]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3906]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3907]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3918]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3937]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3938]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3949]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3968]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3969]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3980]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3999]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4000]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4011]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4030]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4031]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4042]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4061]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4062]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4073]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'wr_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4092]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'rd_use' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4093]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'port_rd_data' [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:4104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_s...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_p...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(...
+Compiling module fifo_generator_v13_2_3.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3(C_COMMON_...
+Compiling module xil_defaultlib.wr_fifo
+Compiling module xil_defaultlib.wr_lead
+Compiling module xil_defaultlib.check
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_s...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_p...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(...
+Compiling module fifo_generator_v13_2_3.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3(C_COMMON_...
+Compiling module xil_defaultlib.data_fifo
+Compiling module xil_defaultlib.addr_gen
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_s...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_p...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(...
+Compiling module fifo_generator_v13_2_3.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3(C_COMMON_...
+Compiling module xil_defaultlib.queue_fifo
+Compiling module xil_defaultlib.queue_gen
+Compiling module xil_defaultlib.addr_ctrl
+Compiling module xil_defaultlib.addr_re
+Compiling module xil_defaultlib.wr_sram
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=1)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=2)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=3)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=4)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=5)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=6)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=7)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=8)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=9)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=10)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=11)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=12)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=13)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=14)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=15)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=16)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=17)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=18)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=19)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=20)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=21)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=22)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=23)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=24)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=25)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=26)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=27)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=28)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=29)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=30)
+Compiling module xil_defaultlib.wr_sram(SRAM_INDEX=31)
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.tb_Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Top_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim/xsim.dir/tb_Top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 19 16:53:40 2024...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:36 . Memory (MB): peak = 1602.344 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '36' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Top_behav -key {Behavioral:sim_1:Functional:tb_Top} -tclbatch {tb_Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:53 . Memory (MB): peak = 1651.527 ; gain = 49.184
+run all
+WARNING: [Simulator 45-29] Cannot open source file /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v: file does not exist.
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1651.527 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 17:24:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 17:38:53 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+set_msg_config -suppress -id {Project 1-311} -string {{CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Dell/Desktop/CICC/plan0427/Src/rd_sram.v', nor could it be found using path 'F:/A/2024/plan0427/Src/rd_sram.v'.} } 
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 17:58:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 18:14:50 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 18:37:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 18:47:41 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jul 19 18:48:45 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.runs/synth_1/runme.log

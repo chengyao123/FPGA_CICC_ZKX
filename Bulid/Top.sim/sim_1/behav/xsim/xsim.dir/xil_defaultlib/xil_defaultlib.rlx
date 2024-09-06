@@ -1,0 +1,17 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim/glbl.v,1716456243,verilog,,,,glbl,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Ip/data_fifo/sim/data_fifo.v,1716456429,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Ip/wr_fifo/sim/wr_fifo.v,,data_fifo,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Ip/queue_fifo/sim/queue_fifo.v,1716456492,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Ip/data_fifo/sim/data_fifo.v,,queue_fifo,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Ip/wr_fifo/sim/wr_fifo.v,1716456550,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v,,wr_fifo,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v,1716456558,verilog,,,,tb_Top,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v,1718180844,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v,,Top,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v,1717680798,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_gen.v,,addr_ctrl,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_gen.v,1717676544,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_re.v,,addr_gen,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_re.v,1717674128,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/check.v,,addr_re,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/check.v,1716456559,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v,,check,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v,1718249443,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_lead.v,,queue_gen,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_lead.v,1716549706,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v,,wr_lead,,,,,,,,
+C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v,1717660244,verilog,,C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v,,wr_sram,,,,,,,,
