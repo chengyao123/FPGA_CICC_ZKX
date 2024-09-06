@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Ip/queue_fifo/sim/queue_fifo.v" \
+"../../../../../Ip/data_fifo/sim/data_fifo.v" \
+"../../../../../Ip/wr_fifo/sim/wr_fifo.v" \
+"../../../../../Src/Top.v" \
+"../../../../../Src/addr_ctrl.v" \
+"../../../../../Src/addr_gen.v" \
+"../../../../../Src/addr_re.v" \
+"../../../../../Src/check.v" \
+"../../../../../Src/queue_gen.v" \
+"../../../../../Src/wr_lead.v" \
+"../../../../../Src/wr_sram.v" \
+"../../../../../Sim/tb_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,233 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  6 20:07:53 2024
+# Process ID: 6500
+# Current directory: F:/A/2024/plan0427/Bulid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9712 F:\A\2024\plan0427\Bulid\Top.xpr
+# Log file: F:/A/2024/plan0427/Bulid/vivado.log
+# Journal file: F:/A/2024/plan0427/Bulid\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/A/2024/plan0427/Bulid/Top.xpr
+update_compile_order -fileset sources_1
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name queue_fifo -dir F:/A/2024/plan0427/Ip
+set_property -dict [list CONFIG.Component_Name {queue_fifo} CONFIG.Input_Data_Width {32} CONFIG.Input_Depth {16} CONFIG.Output_Data_Width {32} CONFIG.Output_Depth {16} CONFIG.Dout_Reset_Value {1} CONFIG.Data_Count_Width {4} CONFIG.Write_Data_Count_Width {4} CONFIG.Read_Data_Count_Width {4} CONFIG.Full_Threshold_Assert_Value {14} CONFIG.Full_Threshold_Negate_Value {13}] [get_ips queue_fifo]
+generate_target {instantiation_template} [get_files f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci]
+generate_target all [get_files  f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci]
+catch { config_ip_cache -export [get_ips -all queue_fifo] }
+export_ip_user_files -of_objects [get_files f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci]
+launch_runs -jobs 4 queue_fifo_synth_1
+export_simulation -of_objects [get_files f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci] -directory F:/A/2024/plan0427/Bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files -ipstatic_source_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/modelsim} {questa=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/questa} {riviera=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/riviera} {activehdl=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+close [ open F:/A/2024/plan0427/Src/addr_re.v w ]
+add_files F:/A/2024/plan0427/Src/addr_re.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/A/2024/plan0427/Sim/tb_addr_re.v w ]
+add_files -fileset sim_1 F:/A/2024/plan0427/Sim/tb_addr_re.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_addr_re [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_addr_re.tcl
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+restart
+run 20 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_Top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source tb_Top.tcl
+run 20 us
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_Top.tcl
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+relaunch_sim
+run 20 us
+set_property -dict [list CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Use_Extra_Logic {true} CONFIG.Data_Count_Width {5} CONFIG.Write_Data_Count_Width {5} CONFIG.Read_Data_Count_Width {5} CONFIG.Full_Threshold_Assert_Value {15} CONFIG.Full_Threshold_Negate_Value {14} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5}] [get_ips queue_fifo]
+generate_target all [get_files  f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci]
+catch { config_ip_cache -export [get_ips -all queue_fifo] }
+export_ip_user_files -of_objects [get_files f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci] -no_script -sync -force -quiet
+reset_run queue_fifo_synth_1
+launch_runs -jobs 4 queue_fifo_synth_1
+export_simulation -of_objects [get_files f:/A/2024/plan0427/Ip/queue_fifo/queue_fifo.xci] -directory F:/A/2024/plan0427/Bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files -ipstatic_source_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/modelsim} {questa=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/questa} {riviera=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/riviera} {activehdl=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+relaunch_sim
+run 20 us
+relaunch_sim
+restart
+restart
+restart
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+restart
+restart
+run 20 us
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open F:/A/2024/plan0427/Src/wr_sram.v w ]
+add_files F:/A/2024/plan0427/Src/wr_sram.v
+update_compile_order -fileset sources_1
+close [ open F:/A/2024/plan0427/Src/rd_sram.v w ]
+add_files F:/A/2024/plan0427/Src/rd_sram.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/A/2024/plan0427/Sim/tb_wr_sram.v w ]
+add_files -fileset sim_1 F:/A/2024/plan0427/Sim/tb_wr_sram.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_wr_sram [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_wr_sram.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+restart
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+set_property -dict [list CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Use_Extra_Logic {true} CONFIG.Data_Count_Width {14} CONFIG.Write_Data_Count_Width {14} CONFIG.Read_Data_Count_Width {14} CONFIG.Full_Threshold_Assert_Value {8191} CONFIG.Full_Threshold_Negate_Value {8190} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5}] [get_ips wr_fifo]
+generate_target all [get_files  F:/A/2024/plan0427/Ip/wr_fifo/wr_fifo.xci]
+catch { config_ip_cache -export [get_ips -all wr_fifo] }
+export_ip_user_files -of_objects [get_files F:/A/2024/plan0427/Ip/wr_fifo/wr_fifo.xci] -no_script -sync -force -quiet
+reset_run wr_fifo_synth_1
+launch_runs -jobs 4 wr_fifo_synth_1
+export_simulation -of_objects [get_files F:/A/2024/plan0427/Ip/wr_fifo/wr_fifo.xci] -directory F:/A/2024/plan0427/Bulid/Top.ip_user_files/sim_scripts -ip_user_files_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files -ipstatic_source_dir F:/A/2024/plan0427/Bulid/Top.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/modelsim} {questa=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/questa} {riviera=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/riviera} {activehdl=F:/A/2024/plan0427/Bulid/Top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_Top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation

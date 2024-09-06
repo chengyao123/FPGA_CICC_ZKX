@@ -1,0 +1,142 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/queue_fifo/sim/queue_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module queue_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/data_fifo/sim/data_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Ip/wr_fifo/sim/wr_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2458] undeclared symbol port0_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1149]
+INFO: [VRFC 10-2458] undeclared symbol port1_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1163]
+INFO: [VRFC 10-2458] undeclared symbol port2_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1177]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1183]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1184]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1185]
+INFO: [VRFC 10-2458] undeclared symbol port3_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1186]
+INFO: [VRFC 10-2458] undeclared symbol port3_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1191]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1197]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1198]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1199]
+INFO: [VRFC 10-2458] undeclared symbol port4_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1200]
+INFO: [VRFC 10-2458] undeclared symbol port4_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1205]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1211]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1212]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1213]
+INFO: [VRFC 10-2458] undeclared symbol port5_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1214]
+INFO: [VRFC 10-2458] undeclared symbol port5_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1219]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1225]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1226]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1227]
+INFO: [VRFC 10-2458] undeclared symbol port6_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1228]
+INFO: [VRFC 10-2458] undeclared symbol port6_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1233]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1239]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1240]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1241]
+INFO: [VRFC 10-2458] undeclared symbol port7_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1242]
+INFO: [VRFC 10-2458] undeclared symbol port7_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1247]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1253]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1254]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1255]
+INFO: [VRFC 10-2458] undeclared symbol port8_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1256]
+INFO: [VRFC 10-2458] undeclared symbol port8_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1261]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1267]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1268]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1269]
+INFO: [VRFC 10-2458] undeclared symbol port9_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1270]
+INFO: [VRFC 10-2458] undeclared symbol port9_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1275]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1281]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1282]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1283]
+INFO: [VRFC 10-2458] undeclared symbol port10_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1284]
+INFO: [VRFC 10-2458] undeclared symbol port10_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1289]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1295]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1296]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1297]
+INFO: [VRFC 10-2458] undeclared symbol port11_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1298]
+INFO: [VRFC 10-2458] undeclared symbol port11_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1303]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1309]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1310]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1311]
+INFO: [VRFC 10-2458] undeclared symbol port12_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1312]
+INFO: [VRFC 10-2458] undeclared symbol port12_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1317]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1323]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1324]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1325]
+INFO: [VRFC 10-2458] undeclared symbol port13_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1326]
+INFO: [VRFC 10-2458] undeclared symbol port13_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1331]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1337]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1338]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1339]
+INFO: [VRFC 10-2458] undeclared symbol port14_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1340]
+INFO: [VRFC 10-2458] undeclared symbol port14_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1345]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1351]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1352]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1353]
+INFO: [VRFC 10-2458] undeclared symbol port15_wr_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1354]
+INFO: [VRFC 10-2458] undeclared symbol port15_port_full, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:1359]
+INFO: [VRFC 10-2458] undeclared symbol port_req_done, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3006]
+INFO: [VRFC 10-2458] undeclared symbol rd_req_done, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3008]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3138]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3139]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3140]
+INFO: [VRFC 10-2458] undeclared symbol sram0_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3141]
+INFO: [VRFC 10-2458] undeclared symbol wr_use, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3162]
+INFO: [VRFC 10-2458] undeclared symbol rd_use, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3163]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3171]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3172]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3173]
+INFO: [VRFC 10-2458] undeclared symbol sram1_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3174]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3202]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3203]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3204]
+INFO: [VRFC 10-2458] undeclared symbol sram2_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3205]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3233]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3234]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3235]
+INFO: [VRFC 10-2458] undeclared symbol sram3_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3236]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3264]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3265]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3266]
+INFO: [VRFC 10-2458] undeclared symbol sram4_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3267]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3295]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3296]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3297]
+INFO: [VRFC 10-2458] undeclared symbol sram5_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3298]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_sop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3326]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_eop, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3327]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_vld, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3328]
+INFO: [VRFC 10-2458] undeclared symbol sram6_rd_data, assumed default net type wire [C:/Users/Dell/Desktop/CICC/plan0427/Src/Top.v:3329]
+INFO: [Common 17-14] Message 'VRFC 10-2458' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_ctrl
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:826]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:827]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:828]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:829]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:830]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:831]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:832]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:833]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:834]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:835]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:836]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_ctrl.v:837]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/addr_re.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_re
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module check
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module queue_gen
+WARNING: [VRFC 10-3380] identifier 'pri_cnt' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/queue_gen.v:546]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_lead.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_lead
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wr_sram
+WARNING: [VRFC 10-3380] identifier 'curr_state' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v:67]
+WARNING: [VRFC 10-3380] identifier 'curr_state' is used before its declaration [C:/Users/Dell/Desktop/CICC/plan0427/Src/wr_sram.v:68]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Sim/tb_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dell/Desktop/CICC/plan0427/Bulid/Top.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
